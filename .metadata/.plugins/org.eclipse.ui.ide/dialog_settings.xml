@@ -112,6 +112,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\chris\Downloads\Spring 예제\Java_자바_Spring_스프링_강의_05_ex1_springex\spring_5_2_ex1_springex"/>
+			<item value="C:\Users\chris\Downloads\Spring 예제\Java_자바_Spring_스프링_강의_05_ex1_springex\spring_5_1_ex1_springex"/>
 			<item value="C:\Users\chris\Downloads\Spring 예제\Java_자바_Spring_스프링_강의_03_ex1_springex"/>
 		</list>
 	</section>

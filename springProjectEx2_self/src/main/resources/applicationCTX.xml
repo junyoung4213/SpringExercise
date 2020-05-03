@@ -38,6 +38,7 @@
 		<property name="bmiCalculator">
 			<ref bean="bmiCalculator" />
 		</property>
+		
 	</bean>
 
 </beans>
