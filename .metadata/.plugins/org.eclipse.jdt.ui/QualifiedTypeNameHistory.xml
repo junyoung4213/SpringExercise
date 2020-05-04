@@ -2,10 +2,30 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.javalec.ex.Calculation"/>
 <fullyQualifiedTypeName name="com.javalec.ex.Calculator"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="com.javalec.ex.MyCalculator"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.javalec.ex.BMICalculator"/>
 <fullyQualifiedTypeName name="com.javalec.ex.StudentInfo"/>
+<fullyQualifiedTypeName name="com.javalec.ex.Pencil"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
+<fullyQualifiedTypeName name="testPjt.TranspotationWalk"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+<fullyQualifiedTypeName name="testPjt001.TransportationWalk"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="javax.inject.Qualifier"/>
+<fullyQualifiedTypeName name="com.word.service.WordSearchService"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="ems.member.service.StudentRegisterService"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="ems.member.DataBaseConnectionInfo"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="ems.member.configration.MemberConfig2"/>
+<fullyQualifiedTypeName name="ems.member.configration.MemberConfig3"/>
 </qualifiedTypeNameHistroy>

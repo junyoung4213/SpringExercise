@@ -58,11 +58,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="spring4"/>
 			<item value="com.test.test"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="testPjt"/>
+			<item value="testPjt01"/>
 			<item value="FirstEx"/>
 			<item value="app"/>
 		</list>
@@ -95,5 +98,22 @@
 		<item key="height" value="667"/>
 		<item key="x" value="938"/>
 		<item key="y" value="134"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\chris\Downloads\스프링 자료\lec12Pjt001"/>
+			<item value="C:\Users\chris\Downloads\스프링 자료\lec11Pjt001"/>
+			<item value="C:\Users\chris\Downloads\스프링 자료\lec09Pjt001"/>
+			<item value="C:\Users\chris\Desktop\Spring\testPjt001"/>
+			<item value="C:\Users\chris\Downloads\스프링 자료\lec03Pjt001"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
