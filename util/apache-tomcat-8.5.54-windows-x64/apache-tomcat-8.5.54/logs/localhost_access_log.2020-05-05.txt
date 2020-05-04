@@ -21,3 +21,12 @@
 0:0:0:0:0:0:0:1 - - [05/May/2020:00:33:25 +0900] "GET /lec19/resources/html/index.html HTTP/1.1" 200 410
 0:0:0:0:0:0:0:1 - - [05/May/2020:00:33:26 +0900] "GET /lec19/resources/html/memJoin.html HTTP/1.1" 200 1707
 0:0:0:0:0:0:0:1 - - [05/May/2020:00:33:47 +0900] "POST /lec19/member/memJoin HTTP/1.1" 200 483
+127.0.0.1 - - [05/May/2020:01:00:54 +0900] "GET / HTTP/1.1" 200 11414
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:00:55 +0900] "GET /lec20/ HTTP/1.1" 200 181
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:08 +0900] "GET /lec20/mall.index HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:16 +0900] "GET /lec20/mall/index HTTP/1.1" 200 946
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:16 +0900] "GET /lec20/resources/css/normal.css HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:21 +0900] "GET /lec20/mall/main?gender=M&_cookieDel=on HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:25 +0900] "GET /lec20/mall/main?gender=W&_cookieDel=on HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:33 +0900] "GET /lec20/mall/main?gender=W&cookieDel=true&_cookieDel=on HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [05/May/2020:01:01:36 +0900] "GET /lec20/mall/main?gender=W&cookieDel=true&_cookieDel=on HTTP/1.1" 200 415
