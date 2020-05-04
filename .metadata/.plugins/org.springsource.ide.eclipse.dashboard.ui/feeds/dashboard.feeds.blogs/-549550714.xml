@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-05-04T13:25:25Z</updated>
+  <updated>2020-05-04T13:25:00Z</updated>
   <entry>
     <title>Spring Cloud Function Native Images</title>
     <link rel="alternate" href="https://spring.io/blog/2020/05/04/spring-cloud-function-native-images" />
@@ -14,7 +14,7 @@
       <name>Dave Syer</name>
     </author>
     <id>tag:spring.io,2020-05-04:4053</id>
-    <updated>2020-05-04T13:25:25Z</updated>
+    <updated>2020-05-04T13:25:00Z</updated>
     <content type="html">&lt;p&gt;Here&amp;rsquo;s the latest graph of memory versus billing for Spring Cloud Function on AWS Lambda. It shows the billing metric GBsec as a function of memory allocation in Lambda for two custom runtimes, one in plain Java and one using a &lt;a href="https://www.graalvm.org/docs/reference-manual/native-image/"&gt;GraalVM native image&lt;/a&gt;, as described recently in this blog by &lt;a href="https://spring.io/blog/2020/04/09/spring-graal-native-0-6-0-released"&gt;Andy Clement&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRWYdp_BpzQg7nA9P7xi9bjTapxu6cYrLi7PFvBmnnKM2zCuVuYzAh25KpFuz0hX0fqJyo1nJO5fyN/pubchart?oid=918725258&amp;format=image" alt="aws-billing-3.x" /&gt;&lt;/p&gt;
 &lt;p&gt;In both cases the functionality is identical (a simple POJO-POJO function), and they both show only the results for cold start. Warm starts, where the function was already active when the request came in, were much faster and cheaper (except for the smallest memory setting they all cost the same because there is a minimum charge for all functions in AWS). You can see that the native images start up very fast and that they are more than two times cheaper to run than the regular JVM. The fastest startup was in the 1000MB container - it only took 19ms to start the app, but it took AWS 700ms to prepare the container, so it was billed at 800ms. In fact, all of the cold starts were billed at 800ms for the native image. For the regular JVM the fastest startup was also in the 1000MB container at 300ms, but it was billed at 2200ms.&lt;/p&gt;
@@ -60,7 +60,7 @@
 	}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Note that I am using the &lt;a href="https://spring.io/blog/2018/10/22/functional-bean-registrations-in-spring-cloud-function"&gt;functional bean registration style&lt;/a&gt;, although it doesn&amp;rsquo;t make much difference for such a simple application.&lt;/p&gt;
-&lt;p&gt;I also had to modify the tests to make sure they work with the new POJO signature. You could just delete the tests and the &lt;code&gt;verify.sh&lt;/code&gt; to avoid having to do that, if you just want somethine quick to work. If you want to see what I did&lt;/p&gt;
+&lt;p&gt;I also had to modify the tests to make sure they work with the new POJO signature. You could just delete the tests and the &lt;code&gt;verify.sh&lt;/code&gt; to avoid having to do that, if you just want something quick to work. If you want to see what I did look at the &lt;a href="https://github.com/dsyer/spring-graal-feature/tree/foo/spring-graal-native-samples/function-aws"&gt;foo branch&lt;/a&gt; in my fork.&lt;/p&gt;
 &lt;p&gt;Then I built the application in the same way as the other samples. This creates the native image and dumps it in the &lt;code&gt;target&lt;/code&gt; directory:&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint"&gt;$ ./build.sh
 &lt;/code&gt;&lt;/pre&gt;
