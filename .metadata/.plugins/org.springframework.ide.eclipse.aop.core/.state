@@ -2,12 +2,15 @@
 <aop-reference-model>
 <aop-project name="springProjectEx5_self"/>
 <aop-project name="springProjectEx"/>
+<aop-project name="lec16Pjt"/>
 <aop-project name="ch02_pjt_01"/>
-<aop-project name="springProjectEx5_self2"/>
 <aop-project name="springProjectEx2_self"/>
+<aop-project name="Pjt14"/>
+<aop-project name="springProjectEx5_self2"/>
 <aop-project name="springProjectEx2"/>
 <aop-project name="springProjectEx7_self2"/>
 <aop-project name="testPjt"/>
 <aop-project name="springProjectEx7_self"/>
 <aop-project name="springProjectEx6_self"/>
+<aop-project name="lec16Pjt001"/>
 </aop-reference-model>
