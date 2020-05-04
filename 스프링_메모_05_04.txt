@@ -1,0 +1,27 @@
+DispatcherServlet -> HandlerMapping -> HandlerAdapter -> 
+Controller -> Service -> DAO -> DataBase -> 
+HandlerAdapter -> ViewResolver -> View
+
+<annotation-driven /> // 어노테이션을 사용하기 위한 태그.
+
+<Spring Project 전체 구조>
+
+프로젝트 폴더 -> src -> main -> java & webapp 
+
+webapp 하위 -> resources & WEB-INF
+
+WEB-INF 하위 -> spring & views
+
+<pom.xml 생성>
+경로는 src 폴더와 같은 디렉토리.
+
+<web.xml 생성>
+경로는 WEB-INF 폴더와 같은 디렉토리
+
+<servlet-context.xml 생성>
+경로는 spring 폴더 밑 appServlet 폴더에 생성
+
+<root-context.xml 생성>
+경로는 spring 폴더에 생성.
+
+기존 내용을 재활용 하는 것이 에러를 방지하는 방법.
